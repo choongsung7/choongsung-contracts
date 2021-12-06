@@ -13,6 +13,8 @@
 ```
 
 ## 군크노믹스
+![gunkenomics](https://user-images.githubusercontent.com/95215407/143848433-ba30cd46-3c59-4345-8b33-309320ebf448.jpeg)
+
 ```
 충성 ^^7
 군대에서 경례는 국가에 대한 충성 또는 군인 상호간의 복종과 존중 및 전우애의 표시이다.
