@@ -124,19 +124,21 @@ contract ChoongSungStaking is Ownable, IChoongSungStaking {
     }
 
     function reward(address user) external view returns (uint256) {
-        if (totalStaking == 0) {
-            return 0;
-        }
-
         uint256 userStaking;
         uint256 userRewardDebt;
+        uint256 rewardSurplus;
+        uint256 userRewardWithoutSurplus;
 
         userStaking = userInfo[user].staking;
         userRewardDebt = userInfo[user].rewardDebt;
-        if (userStaking == 0) {
-            return 0;
+        rewardSurplus = userInfo[user].rewardSurplus;
+
+        if (totalStaking == 0) {
+            userRewardWithoutSurplus = 0;
+        } else {
+            userRewardWithoutSurplus = userStaking.mul(totalReward).div(totalStaking);
         }
 
-        return userStaking.mul(totalReward).div(totalStaking).sub(userRewardDebt);
+        return userRewardWithoutSurplus.add(rewardSurplus).sub(userRewardDebt);
     }
 }

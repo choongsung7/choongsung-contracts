@@ -11,6 +11,12 @@
 킹갓제너럴 충성코인(CS7)을 보유하기 위해서는
 강인한 군인 정신은 물론 클레이튼 지갑인 카이카스 지갑이 필수이다
 ```
+* contracts:
+  * CS7 token: `0xe57d745547Ce4941cE12A4C83883019816304578`
+  * LP token: `0x03db4F6939878259052f5AF2d7Fd9F0Caff4724c`
+  * pool: `0x3B4A1883D0DFa2a8CBa7F8A6080F726D0Eb3Cce1`
+  * staking: `0x5bF89A8260dd08A37FC7ba4dacb2a3320DFFA7D0`
+  * airdrop: `0x826E728fDf265A7727574afAc5D589CECcc0cF26`
 
 ## 군크노믹스
 ![gunkenomics](https://user-images.githubusercontent.com/95215407/143848433-ba30cd46-3c59-4345-8b33-309320ebf448.jpeg)
